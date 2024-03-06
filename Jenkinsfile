@@ -10,7 +10,7 @@ stages {
 //}
 stage('Build') {
 steps {
-build 'PES2UG19CS159-1'
+build 'PES2UG19CS846-1'
 sh 'g++ vanu.cpp -o output'
 }
 }
